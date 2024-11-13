@@ -23,11 +23,13 @@
 - Ejecutar `php artisan key:generate`
 - Configurar base de datos en `.env`
 - Ejecutar `php artisan migrate` para ejecutar las migraciones
-- Ejecutar `php arisan db:seed` para crear el usuario administrador
+- Ejecutar `php artisan db:seed` para crear el usuario administrador
 
 - Credenciales del usuario administrador: 
-- email: admin@twgroup.cl 
-- password: password
+```
+email: admin@twgroup.cl 
+password: password
+ ```
 ## Nota
 
 Para el proyecto en local lo desarrolle ejecutandolo en docker
